@@ -27,16 +27,18 @@ An end-to-end "Smart Checkout" solution that combines **Computer Vision** (Objec
 ### 1. Prerequisites
 * Install [Ollama](https://ollama.com/)
 * Install [Python 3.10+](https://www.python.org/downloads/)
+* Core Computer Vision
+* ultralytics>=8.3.0
+opencv-python>=4.8.0
+pillow>=10.0.0
+numpy>=1.24.0
 
-### 2. Setup Environment
-```bash
-# Clone the repository
-git clone <your-repo-url>
-cd smart-retail-checkout
+* AI Reasoning Agent
+ollama>=0.3.3
 
-# Create a virtual environment
-python -m venv .venv
-source .venv/scripts/activate  # On Windows: .venv\Scripts\activate
+* Web Interface & Dashboard
+streamlit>=1.30.0
 
-# Install dependencies
-pip install -r requirements.txt
+* Utilities
+protobuf>=3.20.3
+requests>=2.31.0
