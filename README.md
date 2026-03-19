@@ -1,10 +1,10 @@
-# 🛒 Smart Retail Assistant: Vision-Agentic Checkout System
+#  Smart Retail Assistant: Vision-Agentic Checkout System
 
 An end-to-end "Smart Checkout" solution that combines **Computer Vision** (Object Detection) with **Semantic Reasoning** (Local LLM Agent). This system identifies retail products, calculates prices via a custom ontology, and applies business logic using a local AI agent.
 
 ---
 
-## 🌟 Key Features
+##  Key Features
 * **Dual-Model Vision:** Supports benchmarking between **YOLOv8n** and **YOLO11n** architectures.
 * **Semantic Reasoning Agent:** Powered by **Ollama (Llama 3.2:3b)** to handle age verification and promotional logic.
 * **Dynamic Ontology:** Product metadata (prices, categories, promos) managed via a structured `ontology.json`.
@@ -13,7 +13,7 @@ An end-to-end "Smart Checkout" solution that combines **Computer Vision** (Objec
 
 ---
 
-## 🛠️ Technology Stack
+##  Technology Stack
 * **Language:** Python 3.13
 * **Vision:** Ultralytics (YOLOv8/11), OpenCV, PIL
 * **Reasoning:** Ollama (Llama 3.2 3B)
@@ -22,7 +22,7 @@ An end-to-end "Smart Checkout" solution that combines **Computer Vision** (Objec
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Prerequisites
 * Install [Ollama](https://ollama.com/)
