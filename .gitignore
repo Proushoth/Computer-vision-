@@ -1,0 +1,53 @@
+# --- Python Specific ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+bin/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.lib/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- YOLO / Ultralytics Specific ---
+# Ignore the large datasets (usually too big for Git)
+datasets/
+data/train/
+data/val/
+data/test/
+
+# Ignore local training runs (only keep the final best.pt manually)
+runs/
+*.pt
+*.onnx
+*.engine
+
+# --- Streamlit & Local App ---
+.streamlit/
+static/
+.pylintrc
+
+# --- Environment & OS ---
+.env
+.flaskenv
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Large Files & Logs ---
+*.log
+*.sqlite
+src/ontology.json.bak

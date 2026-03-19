@@ -1,0 +1,38 @@
+{
+  "cheesebagel": {
+    "price": 2.50,
+    "category": "Bakery",
+    "description": "A savory bagel topped with melted cheddar cheese.",
+    "promo": "Buy 2 for $4.00"
+  },
+  "ggobukchip": {
+    "price": 1.99,
+    "category": "Snacks",
+    "description": "Turtle Chips - a popular 4-layered corn snack.",
+    "promo": "none"
+  },
+  "goraebob": {
+    "price": 1.25,
+    "category": "Snacks",
+    "description": "Whale-shaped savory crackers.",
+    "promo": "10% off today"
+  },
+  "jinro": {
+    "price": 4.50,
+    "category": "Beverage",
+    "description": "Korean Soju.",
+    "promo": "Must be 21+ to purchase"
+  },
+  "minicrab": {
+    "price": 3.00,
+    "category": "Snacks",
+    "description": "Crispy fried mini crabs.",
+    "promo": "none"
+  },
+  "plum": {
+    "price": 0.75,
+    "category": "Produce",
+    "description": "Fresh red plum.",
+    "promo": "none"
+  }
+}
